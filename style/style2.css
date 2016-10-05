@@ -1,0 +1,124 @@
+html, body {
+    margin:0px;
+    height:100%;
+    width:100%;
+}
+
+h1, h2, h3, h4 {
+    margin:0px;
+}
+
+
+h3{
+    font-size: 34.5px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h4{
+    font-size: 15.5px;
+    font-family: Calibri;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+}
+.kasten{
+
+
+}
+
+/* HEADER */
+.header {
+    height:100px;
+    width: 90%;
+    margin:auto;
+    margin-top: 
+}
+
+.header-logo {
+    background: rgba(0, 0, 0, 0) url("../img/body_and_soul.png") no-repeat scroll center center / 80% auto;
+    float: left;
+    height: 100%;
+    width: 275px;
+}
+
+.header-menu {
+    color: green;
+    float: right;
+    height: 100%;
+}
+
+.header-menu ul {
+    margin-top: 60px;
+}
+
+.header-menu li {
+    display:inline;
+    padding-left: 30px;
+    font-size: 29px;
+    font-family: Agency FB;
+    color: rgba(105,183,37,1);
+}
+.header-menu li:hover{
+     color: rgba(96,78,135,0.9);
+     
+}
+
+/* HEADER IMAGE */
+.header-image {
+    background: red url("../img/fitnessstudio.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    max-height: 60%;
+}
+
+img {
+    display: block;
+    width:100%;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.image-descrption {
+    height:100%;
+    border:0px;
+    width:100%;
+}
+
+
+.header-image-footer {
+    background:url("../img/header-image-footer.png") no-repeat;
+    background-position: center bottom;
+    height:7%;
+}
+
+.transparent-button {
+    background: rgba(105,183,37,1);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 19.5px;
+    font-family: Calibri;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+
+    
+}
+.transparent-button:hover{
+     background-color:rgba(105,183,37,0.5);
+    color: white;
+}
+
+.kasten{
+    background:rgba(96,78,135,0.9);
+    margin-left: 10%; 
+    padding: 20px; 
+    width: 400px;
+    border-radius: 4px;
+}

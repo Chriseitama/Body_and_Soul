@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<title>Body & Soul</title> <!-- Titel überlegen.... zwischen 5 und 7 Wörtern -->
+	<meta charset="utf8">
+	<!-- Später machen!!! Weitere Metas für Suchmaschinen z.B. meta-description -->
+	<!--link href="style.css" rel="stylesheet" type="text/css"-->
+	<link href="style/style.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+	<script>
+		$(window).resize(function() {
+			var imageHeight = $("#image01").outerHeight();
+			var width = $("#image01").outerWidth();
+			
+			if(width < 1550) {
+				$(".block-content-box").css("float","none");
+			}else{
+				$(".block-content-box").css("float","left");
+			}
+
+			$("#image-description").height(imageHeight);
+		});
+		$(window).load(function() {
+			var imageHeight = $("#image01").outerHeight();
+			var width = $("#image01").outerWidth();
+			$("#image-description").height(imageHeight);
+
+			$(".block-content-box" ).mouseover(function() {
+				$( this ).fadeTo("fast",1);
+				$( this ).find(".hiddenDescription").show("fast");	
+			});
+			$(".block-content-box" ).mouseleave(function() {
+				$( this ).fadeTo("fast",0.8);
+				$( this ).find(".hiddenDescription").hide("fast");				
+			});
+			
+			
+			if(width < 1550) {
+				$(".block-content-box").css("float","none");
+			}else{
+				$(".block-content-box").css("float","left");
+			}
+		});
+
+		
+	</script>
+
+	<div id="header">
+		<div id="header-wrapper">
+			<div id="logo">
+				<a href="">					
+				</a>
+			</div>
+			
+			<div class="menu">
+				<ul>
+					<li class="main-menu-active">
+						<a href="">Body & Soul</a>
+					</li>
+					<li>
+						<a href="">Training</a>
+					</li>
+					<li>
+						<a href="">Unser Team</a>
+					</li>
+					<li>
+						<a href="">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	
+	<img id="image01" src="img/fitnessstudio.jpg" alt="Fitnessstudio Body and Soul" />
+	<div id="image-description-wrapper">
+		<div style="margin-left:5%;">
+		<div id="image-description">
+			<div id="description01" class="description">
+				<h3>IMPROVE THE PHYSICAL SHAPE OF YOUR BODY</h2>
+				<h4>Start your way to healthy life with our personalized CrossFit programs.</h3>
+				<a href="" class="transparent-button" >Mehr Erfahren</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="content">
+		<div id="news">
+			<h5><span>Folge uns auf</span> <br> Facebook</h5>
+			<div>						
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbodyandsoulag&tabs=timeline%2Cevents%2Cmessages&width=600&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			</div>
+		</div>
+		
+		
+		<div class="block-wrap">
+			<div class="block-wrap-2">
+				<div style="width:945px;margin-top: 200px;">
+
+					<a class="block-content-box" href="">
+						<table id="ruecken" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>							
+									<h1>Schmerzen am Rücken und in Gelenken ?</h1>
+									<div class="hiddenDescription">
+										<h2>Lernen Sie bei unseren Seminaren, wie 70% des wohlbefindens durch Essen gesteuert werden kann.</h2>
+										<div class="green-button">Mehr Erfahren</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</a>
+					<a class="block-content-box" href="">
+						<table id="ernaehrung" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>							
+									<h1>Unzufrieden, lustlos oder einfach nur schlapp?</h1>
+									<div class="hiddenDescription">
+										<h2>Lernen Sie bei unseren Seminaren, wie 70% des wohlbefindens durch Essen gesteuert werden kann.</h3>
+										<div class="green-button">Mehr Erfahren</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</a>
+					<a class="block-content-box"  href="">
+						<table id="zirkeltraining" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>							
+									<h1>Bessere Erfolge durch elektronisches Zirkeltraining!</h1>
+									<div class="hiddenDescription">
+										<h2>Sie wissen nicht immer welches Gerät oder welche Übung? 
+											Dann trainieren Sie mit Plan und Disziplin für den gesamten Körper.</h2>
+										<div class="green-button" >Mehr Erfahren</div>	
+									</div>
+								</td>
+							</tr>
+						</table>
+					</a>
+					<a class="block-content-box"  href="">
+						<table id="probetraining" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>							
+									<h1>Heute noch Probe trainieren!</h1>
+									<div class="hiddenDescription">
+										<h2>
+											Wir erwarten Sie mit Handtuch und Sport- bekleidung!<br>
+											PS: Beim ersten Probertraining wartet ein gratis Smoothi oder Milchshake auf Sie ;)
+										</h2>
+										<div class="green-button" >Jetzt Anmelden</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</a>
+				</div>				
+			</div>
+		</div>
+
+		<!--
+		<div class="block-wrap">
+			<div class="block-wrap-2">
+				<div class="block-content"">
+					<h1> Ihre Wünsche sind unser Ziel! </h1>
+					<p>
+					Sie legen großen Wert auf eine persönliche Trainingsbetreuung? Wir auch!
+					Unsere qualifizierten Trainer erstellen mit Ihnen gemeinsam einen individuellen, auf Ihre Bedürfnisse und Trainingsziele zugeschnittenen Trainingsplan und begleiten Sie während des Trainingsprozesses.
+					</p>
+					<p>
+					Wir bieten Ihnen eine große Vielfalt an Geräten und Kursen an. Im Gesundheitszentrum Body & Soul Lich erleben Sie auch andere Seiten des Sports. Wir verbinden Sport mit Spaß! Wie wäre es einmal mit einem Zumba-Workout oder einer energiegeladenen Indoor-Cycling-Stunde?
+					</p>										
+				</div>				
+			</div>
+		</div>
+		-->
+	</div>
+	
+
+	<!--
+	<div id="navigation">
+	
+	
+	<div class="Wrapper">
+		<div id="logo">
+		<img src="logo.png" />
+		</div>
+		
+		<p id="menu">
+			<a href="#">Home</a>
+			<a href="#">Neues</a>
+			<a href="#">Training</a>
+			<a href="#">Angebote</a>
+			<a href="#">Unser Team</a>
+			<a href="#">Kontakt</a>		
+		</p>
+	</div>
+	<
+	
+	
+	</div>
+	
+	<img src="img_header.jpg" alt="Fitness Studio" height="auto" width="100%"/>
+	<h2>Ihre Wünsche sind unser Ziel!</h2>
+	<p>Sie legen großen Wer auf eine persönliche Trainingsbetreuung? <br>
+	Wir auch! Unsere qualifizierten Trainer erstellen mit Ihnen gemeinsam einen individuellen, <br>
+	auf ihre Bedürfnisse und Trainigsziele zugeschnittenen Trainingsplan und begleiten Sie während des <br>
+	Trainingsprozesses.</p>
+	<p>Wir bieten Ihnen eine große Vielfalt an Geräten und Kursen an. <br>
+	Im Gesundheitszentrum Body & Soul Lich erleben sie auch andere Seiten des Sports. <br>
+	Wir verbinden Sport mit Spaß!</p>
+	
+	<img src="bg_openigs.png" alt="Grau" height=500px width=300px/>
+	<img src="img_probetraining.jpg" alt="Fitness Studio" height="auto" width="100%"/>
+	<img src="img_footer.jpg" alt="Fitness Studio" height="auto" width="100%"/>
+	
+	<a href="https://www.facebook.com/BodyandSoul.Lich/?fref=ts">Folgt und auf Facebook!</a>
+	-->
+</body>
+
+</html>

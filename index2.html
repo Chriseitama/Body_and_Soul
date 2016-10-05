@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Body & Soul</title> <!-- Titel überlegen.... zwischen 5 und 7 Wörtern -->
+		<meta charset="utf8">
+		<!-- Später machen!!! Weitere Metas für Suchmaschinen z.B. meta-description -->
+		<!--link href="style.css" rel="stylesheet" type="text/css"-->
+		<link href="style/style2.css" rel="stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+	</head>
+	<body>
+		<script>
+			$(window).load(function() {
+				var img_height = $(".header-image img").height();
+				$(".header-image").height(img_height);
+				$(".header-image").width( $(window).width() );
+			});
+			$(window).resize(function() {
+				var img_height = $(".header-image img").height();
+				$(".header-image").height(img_height);
+				$(".header-image").width( $(window).width() );
+			});			
+		</script>
+		
+		<div class="header">
+			<div class="header-logo"></div>
+			<div class="header-menu">
+				<ul>
+					<li>Body & Soul</li>
+					<li>Training</li>
+					<li>Unser Team</li>
+					<li>Kontakt</li>
+					<li>Trainingsfläche</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="header-image">
+			<img src="img/fitnessstudio.jpg" alt="Yoga" />
+			<table class="image-descrption" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<div class="kasten" ">
+							<h3>IMPROVE THE PHYSICAL SHAPE OF YOUR BODY</h3>
+							<h4>Start your way to healthy life with our personalized CrossFit programs.</h4>
+							<a href="" class="transparent-button" >Mehr Erfahren</a>
+						</div>
+					</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td style="width:60%;background:white;"></td>
+					<td class="header-image-footer"></td>
+					<td style="width:20%;background:white;"></td>
+				</tr>			
+			</table>				
+		</div>
+			
+
+		
+	</body>
+</html>

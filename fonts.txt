@@ -1,0 +1,16 @@
+Textgröße / Textschrift / Style / Textfarbe
+
+Menu-Header / Footer-Menu:	29px 	/ Agency FB	/ Regular	/ #59aa0c (green)
+
+Image-Header Überschrift: 	49,5px 	/ Calibri	/ Bold		/ #505050 (grey)
+Image-Header Unter-Überschrift: 21px 	/ Calibri	/ Regular	/ #505050 (grey)
+
+Text Überschrift(Lila):		49,5px	/ Calibri	/ Bold		/ #7055bc (lila)
+Text Überschrift(Green):	49,5px	/ Calibri	/ Bold		/ #59aa0c (green)
+Text (Normal):			21px 	/ Calibri	/ Regular	/ #353535 (darkgrey)
+
+Öffnungszeiten Überschrift:	35px 	/ Calibri	/ Bold		/ #353535 (darkgrey)
+Öffnungszeiten Text:		23,5px 	/ Calibri	/ Regular	/ #353535 (darkgrey)
+
+Footer Überschrift:		30,5px 	/ Calibri	/ Bold		/ #282f39
+Footer Text:			23,5px 	/ Calibri	/ Regular	/ #282f39
